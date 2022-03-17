@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="container w-75 text-center text-white my-5 shadow-lg">
+            <div class="row py-5">
+                <div class="col-md-10 mx-auto">
+                    <div class="item">
+                        <h1 class="py-3">Smart Login System</h1>
+                        <input type="email" class="form-control my-3" placeholder="Enter your email" id="emailInputLogin">
+                        <input type="password" class="form-control my-3" placeholder="Enter your password" id="passwordInputLogin">
+                        <h6 class="text-danger" id="invalidInputLogin"></h6>
+                        <button id= "loginBtn" onclick="login()" type="button" class="btn btn-outline-info w-100 my-3">Login</button>
+                        <p>Don’t have an account?<span>
+                            <a class="text-white text-decoration-none" href="signup.html">Sign Up</a>
+                        </span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/login.js"></script>
+    </body>
+</html>

@@ -1,0 +1,26 @@
+body
+{
+    background-color: #24353f;
+}
+.container
+{
+    background-color: #24353f;
+    transition: all 1s;
+}
+.container a:hover
+{
+    text-decoration: underline !important;
+}
+h1
+{
+    color: #17a2b8;
+}
+.form-control
+{
+    background-color: #24353f;
+}
+.navbar
+{
+    background-color: #24353f;
+    color: white;
+}
